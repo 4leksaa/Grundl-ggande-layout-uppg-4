@@ -1,0 +1,36 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #8A2BE2 ; */
+    background-color: hsl(160, 30%, 70%);
+}
+
+article,
+footer {
+
+    background-color: lightblue;
+    /* background-color: aqua; */
+}
+
+article {
+    padding: 0 10px;
+}
+
+main {
+    display: flex;
+    gap: 14px;
+}
+
+article {
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+}
